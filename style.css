@@ -1,0 +1,44 @@
+* {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+  margin-left: -20px;
+  margin-bottom: 15px;
+}
+
+.list-itens {
+    font-size: 20px;
+}
+
+.list-itens button {
+  background-color: #ea3d3d;
+  border-radius: 5px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 28px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 5px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.list-itens button:hover,
+.list-itens button:focus {
+  background-color: #ff0000;
+}
