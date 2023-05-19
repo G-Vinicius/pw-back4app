@@ -64,7 +64,7 @@ const handleBtnAdd = () => {
         alert("É necessário inserir uma nova tarefa")
         return;
     }
-
+    addButton.disabled = true;
     fetch(taksUrl, {
         method: "POST",
         headers: {
@@ -78,7 +78,9 @@ const handleBtnAdd = () => {
     .then((data) => {
         getTasks();
         console.log("data", data);
+        addButton.disabled = false;
         newTask.value = "";
+        newTask.focus();
     })
     .catch((err) => {
         console.log(err)

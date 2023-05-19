@@ -12,7 +12,7 @@ li {
     font-size: 20px;
 }
 
-.list-itens button {
+.list-itens button, #btn-add {
   background-color: #ea3d3d;
   border-radius: 5px;
   border-style: none;
@@ -38,7 +38,17 @@ li {
   touch-action: manipulation;
 }
 
+#btn-add {
+  background-color: #00eb00;
+  color: black;
+}
+
 .list-itens button:hover,
 .list-itens button:focus {
   background-color: #ff0000;
+}
+
+#btn-add:hover,
+#btn-add:focus {
+  background-color: #00ff00;
 }
